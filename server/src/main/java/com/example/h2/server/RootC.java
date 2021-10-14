@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class RootC {
 
     @GetMapping("/home")
-    public String home() {
+    public String home() throws InterruptedException {
+        // 模拟业务处理耗时
+        Thread.sleep(500);
         return "hello";
     }
 

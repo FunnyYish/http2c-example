@@ -1,0 +1,10 @@
+GET http://localhost:8080/test1RestTemplateSerial HTTP/1.1
+
+GET http://localhost:8080/test1NettySerial HTTP/1.1
+
+
+GET http://localhost:8080/test2NettySerial HTTP/1.1
+
+GET http://localhost:8080/test1RestTemplateConcurrent HTTP/1.1
+
+GET http://localhost:8080/test2NettyConcurrent HTTP/1.1
